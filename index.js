@@ -28,8 +28,7 @@ function writeCards(stringArray, eventName) {
 function countDown(number) {
     let positiveInteger = number
     while (positiveInteger >= 0) {
-        console.log(positiveInteger);
-        positiveInteger--
+        console.log(positiveInteger--);
     }
 }
 
